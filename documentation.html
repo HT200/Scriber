@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scriber</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <script type="module" src="src/wc.js"></script>
+</head>
+<body>
+  <div class="hero is-fullheight-with-navbar">
+    <scriber-navbar></scriber-navbar>
+    
+    <div class="hero-body">
+      <div class="container">
+        <section class="articles">
+          <div class="column is-8 is-offset-2">
+            <div class="card">
+              <div class="card-content content">
+                <p class="title article-title has-text-centered is-1">Documentation</p>
+                <h3 class="has-text-centered">Summary</h3>
+                <p>&emsp;&ensp;In this Sokoban-inspired puzzle, you can push and arrange blocks of letter in order to create meaningful 
+                  words, and shape those words into existence.
+                </p>
+                <h3 class="has-text-centered">Requirement</h3>
+                <pre><a href="https://github.com/tonethar/IGME-330-Spring-2022/blob/main/projects/p2.md" target="_blank">Project 2 Requirement</a></pre>
+                <h3 class="has-text-centered">Resources</h3>
+                <pre>Images & Font:<br><a href="https://www.pixilart.com/art/beaver-177b0dcfc64dbdc" target="_blank">Beaver</a><br><a href="https://opengameart.org/content/lpc-style-wood-bridges-and-steel-flooring" target="_blank">Bridge</a><br><a href="https://www.pixilart.com/draw/grass-tile-96d42a90d4ca683" target="_blank">Canvas image</a><br><a href="https://www.pixilart.com/art/crate-ea3fffb5d0feff3" target="_blank">Crate</a><br><a href="http://pixelartmaker.com/art/db00a560c2afd56" target="_blank">HTML background image</a><br><a href="http://pixelartmaker.com/art/da268f06e621b21" target="_blank">Rock</a><br><a href="https://www.deviantart.com/anshelm/art/Wizard-Sprite-594068901" target="_blank">Wizard</a><br><a href="http://pixelartmaker.com/art/3c5600cfb817d38" target="_blank">Wood Log</a><br><a href="https://www.pixilart.com/art/key-c0274e0785c3672" target="_blank">Key</a> (not used for the current version)<br><a href="https://freefontsdownload.net/free-eras-bold-itc-font-37108.htm" target="_blank">Font: Eras Bold ITC</a><br><br>Audio:<br><a href="https://opengameart.org/content/16-button-clicks" target="_blank">Button</a><br><a href="https://opengameart.org/content/push-stone-boulder-yo-frankie" target="_blank">Error</a><br><a href="https://opengameart.org/content/explosion-0" target="_blank">Explosion</a><br><a href="https://opengameart.org/content/grass-foot-step-sounds-yo-frankie" target="_blank">Move</a><br><br>Code:<br><a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/blog.html" target="_blank">Document page's template</a><br><a href="https://stackoverflow.com/questions/24384368/simple-button-in-html5-canvas" target="_blank">Button Class</a><br><a href="https://www.dofactory.com/javascript/design-patterns/command" target="_blank">JS Command Pattern</a><br><a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault" target="_blank">preventDefault method</a><br><a href="https://stackoverflow.com/questions/31075893/im-getting-favicon-ico-error" target="_blank">Favicon error</a></pre>
+                
+                <h3 class="has-text-centered">Noteworthy</h3>
+                <p>The project utilizes many technologies that are taught so far this semester: Web Components, Bulma, Fetch, Promise, Canvas.
+                  <br>The project also utilizes the command design pattern so that it's easier to detect movement in the game.
+                </p>
+                <h3 class="has-text-centered">To Do</h3>
+                <ol>
+                  <li>Add more spawnable items. Even though the player can spell out more nouns, only bridge, bomb, and beaver can be spelt out at the moment.</li>
+                  <li>More level!</li>
+                  <li>Bug fixes with how the letters interact with each other</li>
+                  <li>Add animation + particle effects</li>
+                  <li>Level editor(???)</li>
+                </ol>
+                <h3 class="has-text-centered">Grading</h3>
+                <p>&emsp;&ensp;Everything that was asked for in the rubric was achieved throughout the period of development. Other than that, a lot of time
+                  has been spent on developing the game mechanics and bug fixing due to the complexity of the game itself. While it's nowhere near what I want
+                  the game to be, I'm happy of the state that it currently is in after around 50 hours of development.
+                </p>
+              </div>
+              <br>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+        
+    <scriber-footer></scriber-footer>
+  </div>
+</body>
+</html>

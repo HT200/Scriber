@@ -1,0 +1,28 @@
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    display: block;
+}
+
+@media only screen and (max-width: 1080px) {
+    canvas {
+        width: 90vw;
+    }
+}
+
+@font-face {
+    font-family: eras;
+    src: url(../font/ErasBoldITC.ttf);
+}
+
+html {
+    background-image: url("../images/background.png");
+    background-repeat: repeat;
+}
+
+a, .subtitle, .title, h3 {
+    font-family: eras;
+}
